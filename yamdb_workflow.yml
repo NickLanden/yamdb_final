@@ -1,5 +1,8 @@
 name: api_yamdb workflow
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
 jobs:
   tests:
     runs-on: ubuntu-latest
