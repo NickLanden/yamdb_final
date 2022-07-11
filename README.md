@@ -3,9 +3,9 @@
 [![api_yamdb workflow](https://github.com/NickLanden/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/NickLanden/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 ## Доступные адреса: 
-* [https://51.250.22.129](https://51.250.22.129) - API
-* [https://51.250.22.129/admin](https://51.250.22.129/admin) - Админка
-* [https://51.250.22.129/redoc](https://51.250.22.129/redoc) - Документация
+* [http://51.250.22.129](http://51.250.22.129) - API
+* [http://51.250.22.129/admin](http://51.250.22.129/admin) - Админка
+* [http://51.250.22.129/redoc](http://51.250.22.129/redoc) - Документация
 
 * * *
 ## Описание
