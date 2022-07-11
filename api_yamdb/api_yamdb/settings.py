@@ -7,11 +7,11 @@ load_dotenv(dotenv_path='../infra/.env')
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = os.getenv('SECRET_KEY', default='*r+26t%9j8f0pw+s2*a*zz6yut0ozm#2_h%g%d2v$#92s1=f4q')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = os.getenv('SERVERNAMES', default='*').split(' ')
+ALLOWED_HOSTS = os.getenv('SERVERNAMES', default='*').split()
 
 INSTALLED_APPS = [
     'django.contrib.admin',
